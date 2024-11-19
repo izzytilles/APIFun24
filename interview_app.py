@@ -52,5 +52,5 @@ if __name__ == "__main__":
     # print(header)
     # print(tree)
     # host is IP address when putting it out for production
-    app.run(host="0.0.0.0", port=5001, debug=True)
+    app.run(host="0.0.0.0", port=5001, debug=False)
     # TODO: when deploy app to production, set debug to False and check host and port 
